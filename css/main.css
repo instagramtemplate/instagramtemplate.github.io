@@ -168,8 +168,8 @@ h2 {
     margin-top: 60px;
 }
 .main article p {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   }
 
 .main aside {
@@ -283,8 +283,15 @@ h2 {
     .main h1 { font-size: 36px; }
 
     .main article {
-        width: 60%;
-      }
+        width: 100%;
+    }
+     .main article section {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 39%;
+     }
 
 }
 
